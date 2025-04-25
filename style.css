@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-title{
+    color: red;
+    text-decoration: underline;
+}
+p{
+    color: blue;
+    font-size: 16px;
+}
+.highlight{
+    background-color: yellow;
+}
+h1,h2{
+    color: gray;
+}
+#heading{
+    color:crimson;
+}
+#hex{
+    background-color: #3498db;
+}
+button{
+    background: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+}
+#rgba{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#hsl{
+    color:  hsl(200, 100%, 50%);
+}
+#hsla{
+    background: hsla(120, 100%, 25%, 0.7);
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+#fontfam{
+    font-family: Outfit, sans-serif;
+}
+#ei{
+    font-size: 18px;
+}
+
+.important-text{
+    font-weight: bold;
+}
+
+#centre{
+    text-align: center;
+}
+#upper{
+    text-transform: uppercase;
+}
+#glow{
+    text-shadow: lightgray;
+    color: black;
+}
+.box1{
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    max-width: 600px;
+}
+.box2{
+    background-color: lightblue;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    max-width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+}
